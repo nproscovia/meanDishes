@@ -181,7 +181,7 @@ module.exports.dishesPartialUpdateOne = function (req, res) {
             }
             console.log("found11")
             if (req.body.country) {
-                dish.price = req.body.country;
+                dish.country = req.body.country;
             }
             console.log("found12")
             if (req.body.ingredients) {
